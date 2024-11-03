@@ -1,0 +1,88 @@
+          /* all types of the css selectors in the includes in this tutorials.......
+          1..simple selectors
+          2..combinators selectors
+          3..attribute selectors
+          4..pseudo classes
+          5..pseudo element
+                           
+              SIMPLE SELECTORS..........
+                   1..ID selectors         
+                   2..class selectors
+                   3..element selectors
+                   4..grouping selectors
+                   5..universal selectors {*}
+
+             COMBINATORS SELECTORS..............
+                   1..descendant selector   (space)
+                   2..child selector     (>)
+                   3..adjacent selector   (+)
+                   4..general sibling selector  (~)
+             ATTRIBUTE SELECTORS.............
+                  1..[Attribute]             [:target]
+                  2..[Attribute=value]       [target="__blank"]
+                  3..[Attribute ~=value]     [title ~="flower"]
+                  4..[Attribute /=value]      [lang/="en"]
+                  5..[Attribute ^=value]      a[href$="pdf"]
+                  6..[Attribute*=value]        a[href*="w3school"]
+            PSEUDO CLASSES...................
+                  1. :first-child                              19.:focus
+                  2. :last-child                               20.:checked
+                  3. :nth-child()                              21.:disabled
+                  4. :nth-last-child()                         22.:enabled
+                  5. :nth-of-type()                            23.:required
+                  6. :nth-last-of-type()                       24.:optional
+                  7. :only-child                               25.:in-range
+                  8. :only-of-type                             26.:out-of-range
+                  9. :first-of-type                            27.:read-only
+                  10.:last-of-type                             28.:read-write
+                  11.:empty                                    29.:valid
+                  12.:not()                                    30.:invalid
+                  13.:lang()                                   31.:default
+                  14.:link                                     32.:root
+                  15.:hover
+                  16.:visited
+                  17.:active
+                  18.:target
+            PSEUDO ELEMENT.............................
+                  1. ::after
+                  2. ::before
+                  3. ::first-letter
+                  4. ::first-line
+                  5. ::marker
+                  6. ::selection
+   _________________________________________________________________________________________________________________________________
+
+    */
+                           /* learn the MEDIA QUERAY in this tutorials............
+                        1..ALL        [Its used for all of them {print,screen,speech} ]
+                        2..PRINT      [kis website ka print nikalne ke liye]
+                        3..SCREEN      [media for screen,,,mobil ke liye,,computer ke liye and all of them]
+                        4..SPEECH       jo blind log hamari website nhi paad sakte toh unke liye speech used hota hai means bolne ke liye]
+
+                        viewport {means width of the screen in the viewport}............
+                                 1920
+                                 1440
+                                 1366
+                                 1024
+                                 700-900
+                                 320-480
+                    
+       {  And,,Not,,Only }              @media screen and (max-width:900px) {
+                                           }
+                                     @media  speech and (min-height:300px) {
+                                                                  }
+......this is the basic syntax of the media query/......................... */
+
+@media screen and (max-width: 1024) {
+                      body{
+                        background-color: skyblue;
+                        color: red;
+                      }
+}
+  @media screen and (min-width:300px) {
+                h1{
+                  border: 3px skyblue solid;
+                  font-size: 40px;
+                  color: blue;
+                }
+  }                                     
